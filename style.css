@@ -115,3 +115,37 @@ body {
   width: 100%;
   transition: background .5s;
 }
+
+.login-card input:focus {
+  background: white;
+}
+
+.login-card input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: black;
+}
+
+.login-card-form button {
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background .5s;
+}
+
+.login-card-form button:hover {
+  background-color: rgba(0, 0, 0, .85);
+  cursor: pointer;
+}
+
+.login-card-social {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
